@@ -1,0 +1,12 @@
+def EvenOddSum (a,n):
+Even = 0
+Odd = 0
+for i in range (n):
+if a[i]%2==0:
+even+=a[i]
+else:
+Odd+=a[i]
+return {'even':even, 'odd':odd}
+arr=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
+n=len(arr)
+printn(EvenOddSum(arr,n))
